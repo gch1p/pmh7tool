@@ -10,6 +10,7 @@ This tool is a part of the coreboot project.
 	-d, --dump:  hexdump registers
 	-w, --write <addr> <data>:  write <data> to register <addr>
 	-r, --read <addr>:  read from register <addr>
+	-b, --read-bit <addr> <bit>: read bit <bit> in register <addr>
 	-c, --clear-bit <addr> <bit>: clear bit <bit> in register <addr>
 	-s, --set-bit <addr> <bit>: set bit <bit> in register <addr>
 
